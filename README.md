@@ -50,8 +50,6 @@ Using 306 speech recordings from older adults with and without dementia, we eval
 │   ├── exp3_biomarker_distortion.csv
 │   ├── exp3_filewise_predictions_long.csv
 │   └── transcript_length_summary.csv
-├── notebooks/
-│   └── Experiments.ipynb          # Main analysis pipeline
 ├── stats/
 │   ├── Exp1.R                     # Mixed-effects model: classification probability
 │   ├── Exp2.R                     # Mixed-effects model: FNR and FPR
@@ -73,16 +71,6 @@ Audio recordings are not publicly available due to participant privacy. Access c
 
 ## Requirements
 
-### Python
-```
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-```
-
-### R
 ```r
 install.packages(c("tidyverse", "lme4", "lmerTest", "emmeans", "broom.mixed"))
 ```
