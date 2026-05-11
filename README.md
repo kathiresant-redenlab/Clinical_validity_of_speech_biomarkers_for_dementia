@@ -77,7 +77,7 @@ install.packages(c("tidyverse", "lme4", "lmerTest", "emmeans", "broom.mixed"))
 
 ## Citation
 
-> Kathiresan T, Ling Z, Gasparini L, Piccolo SE, Tjiandra C, Elhammamy H, Brodtmann A, Vogel AP.
+> Kathiresan T, Ling Y-T, Gasparini L, Piccolo SE, Tjiandra C, Elhammamy H, Brodtmann A, Vogel AP.
 > *Clinical validity of speech biomarkers for dementia across automated transcription systems: implications for real-world AI deployment.*
 > npj Digital Medicine (under review).
 
