@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Sensitive data
+All_data.csv
+All_data.xlsx
+*.docx
+*.wav
+*.mp3
+
+# Intermediate figures
+figure_submission_v2.png
+Discussion_revised.txt
+
+# R session
+.Rhistory
+.RData
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
