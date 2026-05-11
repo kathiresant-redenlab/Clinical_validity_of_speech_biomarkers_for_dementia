@@ -44,6 +44,7 @@ Using 306 speech recordings from older adults with and without dementia, we eval
 
 ```
 ├── data/                          # Experiment result files
+│   ├── Transcription.csv              # Human and ASR-generated transcripts
 │   ├── exp1_filewise_predictions_long.csv
 │   ├── exp2_error_rates_summary_vs_human.csv
 │   ├── exp2_fold_source_error_rates.csv
@@ -64,10 +65,7 @@ Using 306 speech recordings from older adults with and without dementia, we eval
 
 ## Data
 
-Speech transcripts used in this study are available from the companion repository:
-[ASR_MultiMetric_Evaluation](https://github.com/kathiresant-redenlab/ASR_MultiMetric_Evaluation)
-
-Audio recordings are not publicly available due to participant privacy. Access can be requested through the corresponding author.
+Speech transcripts (human and ASR-generated) are included in `data/Transcription.csv`. Audio recordings are not publicly available due to participant privacy. Access can be requested through the corresponding author.
 
 ## Requirements
 
